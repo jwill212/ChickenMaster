@@ -1,0 +1,7 @@
+- [ ] Write APIs to pull data
+- [ ] Start and seed DB
+- [ ] Create a Chicken list page
+- [ ] Create a chicken detail page
+- [ ] Create a Checkup add page
+- [ ] Create a Chicken Timeline page
+- [ ] Create landing page for Farm data - capacity & % full
