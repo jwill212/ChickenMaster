@@ -13,4 +13,5 @@
 - [ ] Create a Chicken Timeline table page
 - [ ] Create landing page for Farm data - capacity & % full - charts
 - [ ] Change the chicken table to pageable & sortable
+- [ ] Refactor copy/paste code sections
 - [ ] Create a changelog - record all admin actions w/ datestamp & username
