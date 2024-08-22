@@ -1,27 +1,29 @@
 # Chicken Resource Manager
-I took a lot of liberties with the design, and I imagined three different user scenarios. 
+I took a lot of liberties with the design, and I imagined three different user scenarios. Overall scenario is clients operate multiple chicken farms and want a tool for statistical analysis.  Secondary goal is to use this tool for inventory management.  The customer is most interested in how healthy and productive a chicken is.
 1. A farm worker who is looking at the status of each individual chicken on a farm and deciding what actions to take for the day. 
 2. A vet who is measuring and assessing the chickens and deciding what needs to be done for their health.
 3. An administrator who is looking at farms overall health and risks.  They are more interested in statistics of each individual farm.
 
 ## TODO
-[X] Create app framework - pages and navbar
-[X] Setup auth
-[X] Start and seed DB
-[X] Write API - add Farm & Chicken endpoint
-[X] Create a farm list page
-[X] Create a Chicken list page
-[ ] Create a chicken detail modal
-[ ] Add checkup API
-[ ] Create a Checkup add page
-[ ] Post endpoint for each checkup
-[ ] Create a Chicken Timeline table page
-[ ] Create landing page for Farm data - capacity & % full - charts
-[ ] Change the chicken table to pageable & sortable
-[ ] Add ability to filter the chicken table
-[ ] Refactor copy/paste code sections
-[ ] Create a "Vet" persona - give access to add check-ins but not see the farm tab or edit chickens
-[ ] Create a changelog - record all admin actions w/ datestamp & username
+
+- [x] Create app framework - pages and navbar
+- [x] Setup auth
+- [x] Start and seed DB
+- [x] Write API - add Farm & Chicken endpoint
+- [x] Create a farm list page
+- [x] Create a Chicken list page
+- [ ] Create a chicken detail modal
+- [ ] Add checkup API
+- [ ] Create a Checkup add page
+- [ ] Post endpoint for each checkup
+- [ ] Create a Chicken Timeline table page
+- [ ] Create landing page for Farm data - capacity & % full - charts
+- [ ] Change the chicken table to pageable & sortable
+- [ ] Add ability to filter the chicken table
+- [ ] Setup in AWS/GCP/Azure
+- [ ] Refactor copy/paste code sections
+- [ ] Create a "Vet" persona - give access to add check-ins but not see the farm tab or edit chickens
+- [ ] Create a changelog - record all admin actions w/ datestamp & username
 
 ## Project setup
 
