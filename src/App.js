@@ -8,6 +8,8 @@ import Footer from "./components/Footer";
 import Home from "./views/Home";
 import Profile from "./views/Profile";
 import ExternalApi from "./views/ExternalApi";
+import Farm from "./views/Farm";
+import Chickens from "./views/Chickens";
 import { useAuth0 } from "@auth0/auth0-react";
 import history from "./utils/history";
 
@@ -35,9 +37,10 @@ const App = () => {
         <NavBar />
         <Container className="flex-grow-1 mt-5">
           <Switch>
-            <Route path="/" exact component={Home} />
+            <Route path="/" exact component={Chickens} />
             <Route path="/profile" component={Profile} />
             <Route path="/external-api" component={ExternalApi} />
+            <Route path="/farm" component={Farm} />
           </Switch>
         </Container>
         <Footer />

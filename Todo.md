@@ -1,7 +1,16 @@
-- [ ] Write APIs to pull data
-- [ ] Start and seed DB
-- [ ] Create a Chicken list page
-- [ ] Create a chicken detail page
+## App TODO
+
+- [X] Create app framework - pages and navbar
+- [X] Setup auth
+- [X] Start and seed DB
+- [X] Write API - add Farm & Chicken endpoint
+- [X] Create a farm list page
+- [X] Create a Chicken list page
+- [ ] Create a chicken detail modal
+- [ ] Add checkup API
 - [ ] Create a Checkup add page
-- [ ] Create a Chicken Timeline page
-- [ ] Create landing page for Farm data - capacity & % full
+- [ ] Post endpoint for each checkup
+- [ ] Create a Chicken Timeline table page
+- [ ] Create landing page for Farm data - capacity & % full - charts
+- [ ] Change the chicken table to pageable & sortable
+- [ ] Create a changelog - record all admin actions w/ datestamp & username

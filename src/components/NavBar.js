@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { NavLink as RouterNavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Image from "../assets/Logo_chicken.svg";
 
 import {
   Collapse,
@@ -41,7 +42,7 @@ const NavBar = () => {
     <div className="nav-container">
       <Navbar color="light" light expand="md" container={false}>
         <Container>
-          <NavbarBrand className="logo" />
+          <NavbarBrand className="logo" style={{ backgroundImage:'url(' + Image + ')'}}/>
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
             <Nav className="mr-auto" navbar>
@@ -52,10 +53,21 @@ const NavBar = () => {
                   exact
                   activeClassName="router-link-exact-active"
                 >
-                  Home
+                  Chickens
                 </NavLink>
               </NavItem>
               {isAuthenticated && (
+                <>
+                <NavItem>
+                  <NavLink
+                    tag={RouterNavLink}
+                    to="/Farm"
+                    exact
+                    activeClassName="router-link-exact-active"
+                  >
+                    Farm
+                  </NavLink>
+                </NavItem>
                 <NavItem>
                   <NavLink
                     tag={RouterNavLink}
@@ -66,6 +78,7 @@ const NavBar = () => {
                     External API
                   </NavLink>
                 </NavItem>
+                </>
               )}
             </Nav>
             <Nav className="d-none d-md-block" navbar>
